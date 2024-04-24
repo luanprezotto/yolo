@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contato.css">
+</head>
+<body class="black">
+    <header>
+        <nav>
+            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
+            <div class="nav-wrapper  blue lighten-3">
+    
+                <a href="#" class="brand-logo light"><img src="./img/text-1699451613322.png " alt="" class="logo"></a>
+
+                <ul id="nav-mobile" class="right hide-on-small-only">
+                    <li><a href="index.html" class="black-text fonte">Sobre a Empresa</a></li>
+                    <li><a href="produtos.html" class="black-text fonte">Produtos</a></li>
+                    <li><a href="contato.html" class="black-text fonte">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <ul id="slide-out" class="sidenav blue lighten-3">
+          <li>
+            <div class="user-view">>
+                <a href="#user"><img class="circle" src="./img/cobra-vibora-azul-no-ramo-cobra-vibora-azul-insularis_488145-445.jpg"></a>
+                <a href="#name"><span class="white-text name">Yolo</span></a>
+                <a href="#email"><span class="white-text email">yolo.energy@gmail.com</span></a>
+                                                               <!-- email fictício -->
+            </div>
+          </li>
+          <li><div class="divider"></div></li>
+            <li><a href="index.html" class="black-text">Sobre a Empresa</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="produtos.html" class="black-text">Produtos</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="contato.html" class="black-text">Contato</a></li>
+            <li><div class="divider"></div></li>
+        </ul>
+    </header>
+    <main>
+        <section id="Contato" class="black">
+            <div class="container center">
+            <h1 class="color-text-blue  bold center fonte-text">Contato</H1>
+            <h4 class="grey-text bold espaco center">Fale Com A Gente</h4>
+        <div class="row">
+            <form>
+                <div class="row center">
+                    <div class="input-field col s12 m7 l6 offset-m2 offset-l3">
+                    <i class="material-icons prefix white-text">account_circle</i>
+                      <input id="first_name2" type="text" class="validate materialize-textarea white-text">
+                      <label class="active white-text" for="first_name2">Nome</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m7 l6 offset-m2 offset-l3">
+                        <i class="material-icons prefix white-text">email</i>
+                      <input id="email" type="email" class="validate materialize-textarea white-text">
+                      <label for="email" class="white-text">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="input-field col s12 m7 l6 offset-m2 offset-l3">
+                        <i class="material-icons prefix white-text">phone</i>
+                        <input id="telephone" type="tel" class="validate materialize-textarea white-text">
+                        <label for="telephone" class="white-text">Telefone</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 m7 l6 offset-m2 offset-l3">
+                        <i class="material-icons prefix white-text">chat</i>
+                      <textarea id="textarea1" class="materialize-textarea white-text"></textarea>
+                      <label for="textarea1" class="white-text">Assunto</label>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                        <button class="btn waves-effect waves-light blue lighten-3" type="submit" name="action">enviar
+                          <i class="material-icons right">send</i>
+                        </button>
+                      </div>
+                  </div>
+            </form>
+        </div> 
+        </section>
+
+    </main>
+    <footer>
+        <h6 class="center rodape-espaco white-text"> © Site feito por - æluan</h6>
+        <h6 class="blue-text lighten-3 center">Celebre a vida com a YOLO &#10084;</h6>
+     </footer>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- JavaScript  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      })
+      
+    </script>
+</body>
+</html>

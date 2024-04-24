@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'homeboy';
+    src:url(../fonte/homeboy.ttf);
+}
+h1{
+    margin: 0px;
+    padding-top: 20px;
+}
+.bold{
+    font-weight: bolder;
+}
+.logo{
+    padding: 10px 10px 10px;
+    height: 60px;
+}
+button{
+    margin-bottom: 30px;
+}
+h6{
+    margin-top: 10px;
+}
+.color-text-blue {
+    color: #90caf9 !important;
+}
+footer{
+    margin-top: 90px;
+}
+h4{
+    padding-bottom: 100px;
+}
+.fonte{
+    font-family: 'homeboy', sans-serif;
+    font-size: x-large;
+}
+.fonte-text{
+    font-family: 'homeboy', sans-serif;
+}

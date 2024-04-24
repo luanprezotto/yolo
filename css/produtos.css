@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'homeboy';
+    src:url(../fonte/homeboy.ttf);
+}
+.logo{
+    padding: 10px 10px 10px;
+    height: 60px;
+}
+.color-text-blue {
+    color: #90caf9 !important;
+}
+h6{
+    margin-top: 10px;
+}
+.bold{
+    font-weight: bolder;
+}
+li{
+    list-style-type: none;
+}
+.divider{
+   height: 2px;
+}
+.espaco{
+    padding-top: 15px;
+}
+.parallax{
+    height: 150px;
+}
+h1{
+    margin: 0px;
+    padding:30px;
+}
+.parallax-container{
+    height: 450px;
+}
+p{
+    padding-bottom: 8px;
+}
+.fonte{
+    font-family: 'homeboy', sans-serif;
+    font-size: x-large;
+}
+.fonte-text{
+    font-family: 'homeboy', sans-serif;
+}
